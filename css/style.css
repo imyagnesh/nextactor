@@ -1,0 +1,97 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+   background: url(../imgs/bg.jpg) no-repeat top center #000000;
+ }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+nav {
+  height: 70px;
+      background: transparent;
+}
+
+
+.carousel .carousel-item img {
+    height: 300px;
+}
+
+.carousel-fixed-item {
+  bottom: 10px!important;
+
+}
+
+.tag {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #EA4A74;
+    opacity: 0.9;
+    height: 63px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding: 0px 42px;
+}
+.carousel.carousel-slider .carousel-item {
+    min-height: 0!important;
+}
+
+.carousel .nxtPreBtn {
+    width: 26px;
+    height: 39px;
+    margin: 0 10px;
+}
+
+.pre_btn{
+background: url(../imgs/prev_btn.png) no-repeat top;
+
+}
+
+.next_btn{
+background: url(../imgs/nxt_btn.png) no-repeat top;
+}
+
+.title_bg {
+    width: 100%;
+    height: 64px;
+    background: url(../imgs/ribbon.png) no-repeat;
+    text-transform: uppercase;
+    font-family: 'Cantata One', serif, "Trebuchet MS";
+    font-size: 23px;
+    color: #201f1f;
+    padding-top: 9px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-shadow: #fde791 1px 1px;
+    margin: 0 10px -19px;
+}
+
+/*.carousel-item > img {
+  height: 100%;
+  width: 100%;
+}*/
+
+a{
+  color: white;
+}
+
+@media only screen and (max-width: 992px) {
+nav .brand-logo {
+     left: 0; 
+     -webkit-transform: none; 
+     transform: none; 
+}
+}
